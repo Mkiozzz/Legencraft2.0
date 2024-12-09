@@ -1,0 +1,166 @@
+[09Dec2024 15:48:08.183] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.2.42, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, nogui]
+[09Dec2024 15:48:08.187] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 11.0.25 by Ubuntu
+[09Dec2024 15:48:08.567] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[09Dec2024 15:48:08.651] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/workspaces/Legencraft2.0/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
+[09Dec2024 15:48:08.705] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file /workspaces/Legencraft2.0/servidor_minecraft/config/fml.toml is not correct. Correcting
+[09Dec2024 15:48:08.715] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [defaultConfigPath] was corrected from null to defaultconfigs
+[09Dec2024 15:48:08.720] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: com.electronwill.nightconfig.core.io.ParsingException: Invalid TOML data: entry "[maxThreads]" defined twice in its table.
+[09Dec2024 15:48:08.722] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.toml.TableParser.checkDuplicateKey(TableParser.java:88)
+[09Dec2024 15:48:08.722] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.toml.TableParser.parseNormal(TableParser.java:59)
+[09Dec2024 15:48:08.722] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.toml.TomlParser.parse(TomlParser.java:44)
+[09Dec2024 15:48:08.723] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.toml.TomlParser.parse(TomlParser.java:37)
+[09Dec2024 15:48:08.724] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:113)
+[09Dec2024 15:48:08.726] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:219)
+[09Dec2024 15:48:08.727] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:202)
+[09Dec2024 15:48:08.727] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.core.file.WriteSyncFileConfig.load(WriteSyncFileConfig.java:73)
+[09Dec2024 15:48:08.728] [Thread-0/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread.run(FileWatcher.java:181)
+[09Dec2024 15:48:08.729] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [maxThreads] was corrected from null to -1
+[09Dec2024 15:48:09.393] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[09Dec2024 15:48:09.566] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[09Dec2024 15:48:09.583] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[09Dec2024 15:48:11.173] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[09Dec2024 15:48:20.138] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.42, for MC 1.16.5 with MCP 20210115.111550
+[09Dec2024 15:48:20.160] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.42 Initialized
+[09Dec2024 15:48:20.631] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/Legencraft2.0/servidor_minecraft/config/forge-common.toml is not correct. Correcting
+[09Dec2024 15:48:20.638] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Dec2024 15:48:20.639] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.defaultWorldType was corrected from null to its default, default. 
+[09Dec2024 15:48:20.679] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[09Dec2024 15:48:21.436] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 36.2.42 Target: null
+[09Dec2024 15:48:25.292] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09Dec2024 15:48:26.328] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[09Dec2024 15:48:26.334] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[09Dec2024 15:48:26.339] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[09Dec2024 15:48:26.341] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[09Dec2024 15:48:26.348] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[09Dec2024 15:48:26.352] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.5-36.2.42-universal.jar
+[09Dec2024 15:48:28.623] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 7 recipes
+[09Dec2024 15:48:29.695] [Worker-Main-2/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 advancements
+[09Dec2024 15:48:31.627] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
+[09Dec2024 15:48:31.628] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[09Dec2024 15:48:31.629] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[09Dec2024 15:48:31.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[09Dec2024 15:48:32.341] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[09Dec2024 15:48:32.452] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using epoll channel type
+[09Dec2024 15:48:32.775] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[09Dec2024 15:48:32.776] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[09Dec2024 15:48:32.776] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[09Dec2024 15:48:32.780] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[09Dec2024 15:48:32.899] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
+[09Dec2024 15:48:32.900] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Dec2024 15:48:32.900] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[09Dec2024 15:48:32.901] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringTileEntities was corrected from null to its default, false. 
+[09Dec2024 15:48:32.901] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[09Dec2024 15:48:32.902] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[09Dec2024 15:48:32.902] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[09Dec2024 15:48:32.903] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.logCascadingWorldGeneration was corrected from null to its default, true. 
+[09Dec2024 15:48:32.903] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixVanillaCascading was corrected from null to its default, false. 
+[09Dec2024 15:48:32.910] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.dimensionUnloadQueueDelay was corrected from null to its default, 0. 
+[09Dec2024 15:48:32.911] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.treatEmptyTagsAsAir was corrected from null to its default, false. 
+[09Dec2024 15:48:32.913] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixAdvancementLoading was corrected from null to its default, true. 
+[09Dec2024 15:48:33.008] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[09Dec2024 15:48:40.696] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[09Dec2024 15:48:40.934] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09Dec2024 15:48:41.207] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09Dec2024 15:48:41.892] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09Dec2024 15:48:42.296] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09Dec2024 15:48:42.699] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09Dec2024 15:48:43.270] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09Dec2024 15:48:43.748] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 1%
+[09Dec2024 15:48:44.219] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 1%
+[09Dec2024 15:48:44.700] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 2%
+[09Dec2024 15:48:45.426] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 2%
+[09Dec2024 15:48:45.779] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 2%
+[09Dec2024 15:48:46.212] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 3%
+[09Dec2024 15:48:46.702] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 4%
+[09Dec2024 15:48:47.212] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 4%
+[09Dec2024 15:48:47.980] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 5%
+[09Dec2024 15:48:48.203] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 5%
+[09Dec2024 15:48:48.703] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 6%
+[09Dec2024 15:48:49.217] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 6%
+[09Dec2024 15:48:49.707] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 8%
+[09Dec2024 15:48:50.203] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 9%
+[09Dec2024 15:48:50.755] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 9%
+[09Dec2024 15:48:51.199] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 10%
+[09Dec2024 15:48:51.699] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 11%
+[09Dec2024 15:48:52.213] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 11%
+[09Dec2024 15:48:52.699] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 13%
+[09Dec2024 15:48:53.222] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 14%
+[09Dec2024 15:48:53.704] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 15%
+[09Dec2024 15:48:54.205] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 16%
+[09Dec2024 15:48:54.747] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 17%
+[09Dec2024 15:48:55.202] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 18%
+[09Dec2024 15:48:55.705] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 18%
+[09Dec2024 15:48:56.225] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 19%
+[09Dec2024 15:48:56.750] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 22%
+[09Dec2024 15:48:57.203] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 23%
+[09Dec2024 15:48:57.904] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 23%
+[09Dec2024 15:48:58.327] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 25%
+[09Dec2024 15:48:58.707] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 26%
+[09Dec2024 15:48:59.205] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 26%
+[09Dec2024 15:48:59.760] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 29%
+[09Dec2024 15:49:00.264] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 30%
+[09Dec2024 15:49:00.701] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 31%
+[09Dec2024 15:49:01.204] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 32%
+[09Dec2024 15:49:01.730] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 33%
+[09Dec2024 15:49:02.200] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 34%
+[09Dec2024 15:49:02.733] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 36%
+[09Dec2024 15:49:03.209] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 37%
+[09Dec2024 15:49:03.759] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 39%
+[09Dec2024 15:49:04.199] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 40%
+[09Dec2024 15:49:04.714] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 42%
+[09Dec2024 15:49:05.200] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 42%
+[09Dec2024 15:49:05.723] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 42%
+[09Dec2024 15:49:06.238] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 45%
+[09Dec2024 15:49:06.714] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 47%
+[09Dec2024 15:49:07.206] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 48%
+[09Dec2024 15:49:07.765] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 50%
+[09Dec2024 15:49:08.204] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 51%
+[09Dec2024 15:49:08.758] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 51%
+[09Dec2024 15:49:09.240] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 53%
+[09Dec2024 15:49:09.699] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 54%
+[09Dec2024 15:49:10.347] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 55%
+[09Dec2024 15:49:10.703] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 56%
+[09Dec2024 15:49:11.198] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 58%
+[09Dec2024 15:49:11.712] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 58%
+[09Dec2024 15:49:12.207] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 61%
+[09Dec2024 15:49:12.699] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 62%
+[09Dec2024 15:49:13.225] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 64%
+[09Dec2024 15:49:13.700] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 66%
+[09Dec2024 15:49:14.203] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 67%
+[09Dec2024 15:49:14.828] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 68%
+[09Dec2024 15:49:15.220] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 69%
+[09Dec2024 15:49:15.774] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 70%
+[09Dec2024 15:49:16.237] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 71%
+[09Dec2024 15:49:16.737] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 73%
+[09Dec2024 15:49:17.266] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 74%
+[09Dec2024 15:49:17.714] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 76%
+[09Dec2024 15:49:18.237] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 76%
+[09Dec2024 15:49:18.709] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 77%
+[09Dec2024 15:49:19.255] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 79%
+[09Dec2024 15:49:19.716] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 81%
+[09Dec2024 15:49:20.205] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[09Dec2024 15:49:20.698] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 84%
+[09Dec2024 15:49:21.199] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 85%
+[09Dec2024 15:49:21.736] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 87%
+[09Dec2024 15:49:22.233] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 88%
+[09Dec2024 15:49:22.757] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 90%
+[09Dec2024 15:49:23.199] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 92%
+[09Dec2024 15:49:23.749] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 93%
+[09Dec2024 15:49:24.217] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 95%
+[09Dec2024 15:49:24.721] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 96%
+[09Dec2024 15:49:25.200] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 98%
+[09Dec2024 15:49:25.498] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 44801 ms
+[09Dec2024 15:49:25.502] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (52.623s)! For help, type "help"
+[09Dec2024 15:50:21.018] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
+[09Dec2024 15:50:21.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[09Dec2024 15:50:21.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[09Dec2024 15:50:21.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[09Dec2024 15:50:21.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[09Dec2024 15:50:22.885] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[09Dec2024 15:50:22.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[09Dec2024 15:50:22.887] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09Dec2024 15:50:22.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[09Dec2024 15:50:22.888] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09Dec2024 15:50:22.916] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[09Dec2024 15:50:22.924] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09Dec2024 15:50:22.926] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
