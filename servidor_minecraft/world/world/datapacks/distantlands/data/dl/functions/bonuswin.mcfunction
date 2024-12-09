@@ -1,0 +1,4 @@
+setblock -338 56 -180 bedrock
+execute at @a run playsound minecraft:entity.lightning_bolt.thunder master @p ~ ~ ~ 1 1
+title @a title {"text":"Bonus Monument Complete!","bold":false,"color":"dark_green"}
+summon item -350 111 -176 {NoGravity:1b,Tags:["winbook"],Item:{id:"minecraft:written_book",Count:1b,tag:{pages:['["",{"text":"Thank you so much for playing my map! I hope you enjoyed it. All objectives are complete. There\'s not much left, unless you want to having a look around :D\\n\\n"},{"text":"[ Survival ]","color":"dark_blue","clickEvent":{"action":"run_command","value":"/gamemode survival @s"}},{"text":"\\n","color":"reset"},{"text":"[ Creative ]","color":"dark_purple","clickEvent":{"action":"run_command","value":"/gamemode creative @s"}},{"text":"\\n","color":"reset"},{"text":"[ Spectator ]","color":"light_purple","clickEvent":{"action":"run_command","value":"/gamemode spectator @s"}}]'],title:"Congratulations!",author:Mowse}}}
