@@ -5474,3 +5474,7 @@ com.google.gson.JsonSyntaxException: Missing ops, expected to find a JsonArray
 [15Dec2024 19:43:33.068] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/play/server/SPlayerListItemPacket$Action
 [15Dec2024 19:48:04.084] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
 [15Dec2024 19:48:04.107] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[15Dec2024 19:53:03.101] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[15Dec2024 19:53:03.124] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[15Dec2024 19:58:03.079] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[15Dec2024 19:58:03.096] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
