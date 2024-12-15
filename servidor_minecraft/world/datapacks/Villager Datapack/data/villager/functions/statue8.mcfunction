@@ -1,0 +1,1 @@
+tellraw @a {"text":"The third statue to the left of me is the white taped statue","color":"white"}

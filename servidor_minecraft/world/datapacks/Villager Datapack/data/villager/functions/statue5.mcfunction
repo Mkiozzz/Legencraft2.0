@@ -1,0 +1,1 @@
+tellraw @a ["",{"text":"The statues next to me are ","color":"white"},{"text":"blue","color":"blue"},{"text":" and ","color":"white"},{"text":"red","color":"red"}]

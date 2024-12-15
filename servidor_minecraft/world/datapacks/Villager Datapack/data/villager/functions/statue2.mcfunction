@@ -1,0 +1,1 @@
+tellraw @a ["",{"text":"The ","color":"white"},{"text":"black","color":"black"},{"text":" statue can not sit next to ","color":"white"},{"text":"brown","color":"#936D54"},{"text":", ","color":"white"},{"text":"blue","color":"blue"},{"text":", or ","color":"white"},{"text":"red","color":"red"},{"text":".","color":"white"}]

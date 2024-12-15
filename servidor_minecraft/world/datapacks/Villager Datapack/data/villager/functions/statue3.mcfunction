@@ -1,0 +1,1 @@
+tellraw @a ["",{"text":"My colored tape is ","color":"white"},{"text":"yellow","color":"yellow"},{"text":".","color":"white"}]
